@@ -1,4 +1,7 @@
-<%= simple_form_for(@list) do |f| %>
-  <%= f.input :name %>
-  <%= f.submit %>
-<% end %>
+<div class="container mt-5">
+  <%= simple_form_for(@list) do |f| %>
+    <%= f.input :name, label: "List Name" %>
+    <%= f.input :img_url, label: "List Illustration - url of a picture" %>
+    <%= f.submit %>
+  <% end %>
+</div>
