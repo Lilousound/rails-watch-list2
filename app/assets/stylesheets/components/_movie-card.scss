@@ -1,0 +1,82 @@
+
+.movie-card{
+  overflow: hidden;
+  height: 220px;
+  width: 520px;
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  display: flex;
+  align-items: center;
+  margin: 20px;
+
+
+  img{
+    height: 100%;
+    width: 140px;
+    object-fit: cover;
+    padding: 0px;
+  }
+  h5{
+    font-weight: bolder;
+    font-size: 18px;
+    margin: 0;
+  }
+  #rating{
+    margin: 0;
+    font-style: italic;
+    color: lightslategray;
+  }
+
+  p{
+    font-weight:lighter;
+    color: lightslategray;
+  }
+
+  .movie-info{
+    padding: 20px;
+    margin-left: 0px;
+    height: 200px;
+  }
+
+}
+
+
+// // Smallest device
+// @media (min-width: 100px) and (max-width: 575px) {
+//   .movie-card
+//    {
+//     grid-template-columns: 1fr;
+//   }
+// }
+
+// // Small devices (landscape phones, 576px and up)
+// @media (min-width: 576px) {
+//   .movie-card
+//    {
+//     grid-template-columns: 1fr;
+//   }
+// }
+
+// // Medium devices (tablets, 768px and up)
+// @media (min-width: 768px) {
+//   .movie-card
+//    {
+//     grid-template-columns: 1fr 1fr;
+//   }
+// }
+
+// // Large devices (desktops, 992px and up)
+// @media (min-width: 992px) {
+//   .movie-card
+//    {
+//     grid-template-columns: 1fr 1fr 1fr;
+//   }
+// }
+
+// // Extra large devices (large desktops, 1200px and up)
+// @media (min-width: 1200px) {
+//   .movie-card
+//    {
+//     grid-template-columns: 1fr 1fr 1fr;
+//   }
+// }
