@@ -2,7 +2,7 @@
 .movie-card{
   overflow: hidden;
   height: 220px;
-  width: 520px;
+  width: 540px;
   background: white;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   display: flex;
@@ -33,9 +33,14 @@
   }
 
   .movie-info{
-    padding: 20px;
+    padding-left: 20px;
     margin-left: 0px;
     height: 200px;
+  }
+
+  .movie-comment{
+    font-style: italic;
+    color: darkslateblue;
   }
 
 }
